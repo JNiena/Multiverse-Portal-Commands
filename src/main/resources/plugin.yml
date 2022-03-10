@@ -1,0 +1,10 @@
+name: Multiverse-Portal-Commands
+version: '${project.version}'
+main: com.github.jniena.multiverseportalcommands.MultiversePortalCommands
+api-version: 1.18
+authors: [ JNiena ]
+description: Allows commands to be executed when players use multiverse portals.
+depend: [ Multiverse-Portals, PlaceholderAPI ]
+commands:
+  mvpcommands:
+    description: Base command for Multiverse-Portal-Commands.
